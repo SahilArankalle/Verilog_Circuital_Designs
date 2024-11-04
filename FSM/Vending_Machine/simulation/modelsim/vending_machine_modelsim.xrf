@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/db/vending_machine.cbx.xml
+design_name = vending_machine
+instance = comp, \I~I , I, vending_machine, 1
+instance = comp, \clk~I , clk, vending_machine, 1
+instance = comp, \J~I , J, vending_machine, 1
+instance = comp, \rst~I , rst, vending_machine, 1
+instance = comp, \state.S0 , state.S0, vending_machine, 1
+instance = comp, \state.S1 , state.S1, vending_machine, 1
+instance = comp, \state.S2 , state.S2, vending_machine, 1
+instance = comp, \Selector3~0 , Selector3~0, vending_machine, 1
+instance = comp, \Y~0 , Y~0, vending_machine, 1
+instance = comp, \X~I , X, vending_machine, 1
+instance = comp, \Y~I , Y, vending_machine, 1

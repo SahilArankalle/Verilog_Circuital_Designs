@@ -1,0 +1,48 @@
+module priority_encoder8_3_tb();
+reg [7:0] in;      // 8-bit input for the encoder
+wire [2:0] out;    // 3-bit output representing the highest-priority active input
+
+priority_encoder8_3 dut(in, out);  // Instantiate the priority encoder
+
+// Task to initialize the input values
+task initialize;
+begin
+    in = 8'b00000000;  // Start with no input active
+end
+endtask
+
+// Task to provide stimulus
+task stimulus(input [7:0] i);
+begin
+    #10;
+    in = i;
+end
+endtask
+
+// Initial block to apply test cases
+initial
+begin
+    initialize;
+    #10 stimulus(8'b00000001);  // Lowest priority (LSB)
+    #10 stimulus(8'b00000010);
+    #10 stimulus(8'b00000100);
+    #10 stimulus(8'b00001000);
+    #10 stimulus(8'b00010000);
+    #10 stimulus(8'b00100000);
+    #10 stimulus(8'b01000000);
+    #10 stimulus(8'b10000000);  // Highest priority (MSB)
+end
+
+// Monitor to display the outputs
+initial
+begin
+    $monitor("At time %t, input = %b, output = %b", $time, in, out);
+end
+
+// Terminate the simulation after some time
+initial
+begin
+    #100 $finish;
+end
+
+endmodule

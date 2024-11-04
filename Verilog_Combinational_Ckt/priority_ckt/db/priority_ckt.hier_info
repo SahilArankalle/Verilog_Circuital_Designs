@@ -1,0 +1,34 @@
+|priority_ckt
+i[0] => always0.IN1
+i[1] => always0.IN1
+i[1] => always0.IN1
+i[2] => always0.IN1
+i[2] => always0.IN1
+i[3] => always0.IN1
+i[3] => always0.IN1
+i[4] => always0.IN1
+i[4] => always0.IN1
+i[5] => always0.IN1
+i[5] => always0.IN1
+i[6] => always0.IN0
+i[6] => always0.IN0
+i[7] => h[7]$latch.PRESET
+i[7] => always0.IN1
+i[7] => always0.IN1
+i[7] => h[6].IN1
+i[7] => h[5].IN1
+i[7] => h[4].IN1
+i[7] => h[3].IN1
+i[7] => h[2].IN1
+i[7] => h[1].IN1
+i[7] => h[0].IN1
+h[0] << h[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h[1] << h[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h[2] << h[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h[3] << h[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h[4] << h[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h[5] << h[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h[6] << h[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h[7] << h[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sun Oct 27 16:12:54 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : singleport8x16_async_ram
+Top-level Entity Name : singleport8x16_async_ram
+Family : MAX V
+Device : 5M240ZM68C4
+Timing Models : Final
+Total logic elements : 218 / 240 ( 91 % )
+Total pins : 21 / 52 ( 40 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

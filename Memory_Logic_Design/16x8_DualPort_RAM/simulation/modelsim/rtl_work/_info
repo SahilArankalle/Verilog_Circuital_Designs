@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/simulation/modelsim
+vdualport16x8_ram
+Z1 !s110 1730015785
+!i10b 1
+!s100 M_k@AQ_[_7H=eG3I5DNGl0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:4Homh@M42CP_6=42KMSn1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730014945
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport16x8_ram.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport16x8_ram.v
+!i122 0
+L0 1 31
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1730015784.000000
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport16x8_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM|C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport16x8_ram.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM}
+Z7 tCvgOpt 0
+vdualport_tb
+R1
+!i10b 1
+!s100 zE=_X2IFRPmR=Mi4MSHPo0
+R2
+I]GHFA1^;i1fA?AJk?bezH0
+R3
+R0
+w1730015760
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport_tb.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport_tb.v
+!i122 1
+L0 1 61
+R4
+r1
+!s85 0
+31
+!s108 1730015785.000000
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM|C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/16x8_DualPort_RAM/dualport_tb.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,23 @@
+|priority_encoder_8_3
+in[0] => ~NO_FANOUT~
+in[1] => always0.IN1
+in[2] => always0.IN1
+in[2] => always0.IN1
+in[3] => always0.IN1
+in[3] => always0.IN1
+in[4] => always0.IN1
+in[4] => always0.IN1
+in[5] => always0.IN1
+in[5] => always0.IN1
+in[6] => always0.IN0
+in[6] => always0.IN0
+in[7] => always0.IN1
+in[7] => WideOr0.IN3
+in[7] => WideOr1.IN3
+in[7] => WideOr2.IN3
+in[7] => always0.IN1
+out[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

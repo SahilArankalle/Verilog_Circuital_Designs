@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer/mux4x1_buffer.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer/decoder2x4.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer/tri_state_buffer.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer/db/mux4x1_buffer.cbx.xml
+design_name = mux4x1_buffer
+instance = comp, \in[2]~I , in[2], mux4x1_buffer, 1
+instance = comp, \sel[1]~I , sel[1], mux4x1_buffer, 1
+instance = comp, \sel[0]~I , sel[0], mux4x1_buffer, 1
+instance = comp, \in[0]~I , in[0], mux4x1_buffer, 1
+instance = comp, \in[1]~I , in[1], mux4x1_buffer, 1
+instance = comp, \Mux0~0 , Mux0~0, mux4x1_buffer, 1
+instance = comp, \in[3]~I , in[3], mux4x1_buffer, 1
+instance = comp, \Mux0~1 , Mux0~1, mux4x1_buffer, 1
+instance = comp, \out~I , out, mux4x1_buffer, 1

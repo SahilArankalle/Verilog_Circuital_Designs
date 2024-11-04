@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/db/mux4_1behavioral.cbx.xml
+design_name = mux4_1behavioral
+instance = comp, \data[3]~I , data[3], mux4_1behavioral, 1
+instance = comp, \sel[1]~I , sel[1], mux4_1behavioral, 1
+instance = comp, \data[2]~I , data[2], mux4_1behavioral, 1
+instance = comp, \data[0]~I , data[0], mux4_1behavioral, 1
+instance = comp, \data[1]~I , data[1], mux4_1behavioral, 1
+instance = comp, \sel[0]~I , sel[0], mux4_1behavioral, 1
+instance = comp, \Mux0~0 , Mux0~0, mux4_1behavioral, 1
+instance = comp, \Mux0~1 , Mux0~1, mux4_1behavioral, 1
+instance = comp, \out[0]~I , out[0], mux4_1behavioral, 1
+instance = comp, \out[1]~I , out[1], mux4_1behavioral, 1
+instance = comp, \out[2]~I , out[2], mux4_1behavioral, 1
+instance = comp, \out[3]~I , out[3], mux4_1behavioral, 1

@@ -1,0 +1,64 @@
+# Reading pref.tcl
+# do vending_machine_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 6/Vending_Machine {C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:43:22 on Nov 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine" C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine.v 
+# -- Compiling module vending_machine
+# 
+# Top level modules:
+# 	vending_machine
+# End time: 22:43:22 on Nov 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 6/Vending_Machine {C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:43:22 on Nov 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine" C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine_tb.v 
+# -- Compiling module vending_machine_tb
+# 
+# Top level modules:
+# 	vending_machine_tb
+# End time: 22:43:23 on Nov 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs="+acc"  vending_machine_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs=""+acc"" vending_machine_tb 
+# Start time: 22:43:23 on Nov 04,2024
+# Loading work.vending_machine_tb
+# Loading work.vending_machine
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time=0 | Reset=0, I=0, J=0, X=0, Y=0
+# Time=5 | Reset=1, I=0, J=0, X=0, Y=0
+# Time=15 | Reset=0, I=0, J=0, X=0, Y=0
+# Time=20 | Reset=0, I=1, J=0, X=0, Y=0
+# Time=30 | Reset=0, I=1, J=1, X=1, Y=0
+# Time=35 | Reset=0, I=1, J=1, X=0, Y=0
+# Time=40 | Reset=0, I=1, J=0, X=0, Y=0
+# Time=50 | Reset=0, I=1, J=1, X=1, Y=0
+# Time=55 | Reset=1, I=1, J=1, X=0, Y=0
+# Time=65 | Reset=0, I=1, J=1, X=1, Y=1
+# Time=75 | Reset=0, I=1, J=1, X=0, Y=0
+# Time=80 | Reset=0, I=1, J=0, X=0, Y=0
+# ** Note: $finish    : C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine_tb.v(65)
+#    Time: 90 ps  Iteration: 0  Instance: /vending_machine_tb
+# 1
+# Break in Module vending_machine_tb at C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Vending_Machine/vending_machine_tb.v line 65
+# End time: 22:45:26 on Nov 04,2024, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 0

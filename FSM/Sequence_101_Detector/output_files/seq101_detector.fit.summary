@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sun Nov 03 13:09:18 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : seq101_detector
+Top-level Entity Name : seq101_detector
+Family : MAX V
+Device : 5M40ZM64C4
+Timing Models : Final
+Total logic elements : 4 / 40 ( 10 % )
+Total pins : 4 / 30 ( 13 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, mux2_1.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux4_1.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/db/mux.cbx.xml
+design_name = mux4_1
+instance = comp, \I2~I , I2, mux4_1, 1
+instance = comp, \S1~I , S1, mux4_1, 1
+instance = comp, \S0~I , S0, mux4_1, 1
+instance = comp, \I0~I , I0, mux4_1, 1
+instance = comp, \I1~I , I1, mux4_1, 1
+instance = comp, \MUX3|Y~0 , MUX3|Y~0, mux4_1, 1
+instance = comp, \I3~I , I3, mux4_1, 1
+instance = comp, \MUX3|Y~1 , MUX3|Y~1, mux4_1, 1
+instance = comp, \Y~I , Y, mux4_1, 1

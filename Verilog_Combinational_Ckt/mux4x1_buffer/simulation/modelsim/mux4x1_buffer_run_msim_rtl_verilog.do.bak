@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer {C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer/mux4x1_buffer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer {C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer/decoder2x4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer {C:/Users/Sahil/Desktop/Maven/Programs/mux4x1_buffer/tri_state_buffer.v}
+

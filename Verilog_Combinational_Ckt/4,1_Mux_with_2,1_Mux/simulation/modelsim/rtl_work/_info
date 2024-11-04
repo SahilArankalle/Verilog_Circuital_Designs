@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/simulation/modelsim
+vmux2_1
+Z1 !s110 1727962864
+!i10b 1
+!s100 5zNKTX9_4kOFh?X4PLO?R3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]LThh^cO10VTXKZ^Ifbdb0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1727962820
+Z5 8C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux4_1.v
+Z6 FC:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux4_1.v
+!i122 0
+L0 1 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1727962864.000000
+Z9 !s107 C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux4_1.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux|C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux4_1.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux
+Z13 tCvgOpt 0
+vmux4_1
+R1
+!i10b 1
+!s100 6W24S5XQjaeX<z^aM;=XU1
+R2
+IJQXjM:^az2@LUak_n?VQZ3
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 8 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vmux_tb
+!s110 1727962865
+!i10b 1
+!s100 ld;JM[a[n[0WG1_N2mXl33
+R2
+Iz7_1effCj6JXH4M1XH9Al2
+R3
+R0
+w1727962841
+8C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux_tb.v
+FC:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux_tb.v
+!i122 1
+L0 1 25
+R7
+r1
+!s85 0
+31
+!s108 1727962865.000000
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux|C:/Users/Sahil/Desktop/Maven/Programs/4,1_Mux_with_2,1_Mux/mux_tb.v|
+!i113 1
+R11
+R12
+R13

@@ -1,0 +1,60 @@
+# Reading pref.tcl
+# do bidirectional_buffer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer {C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:39:36 on Oct 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer" C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer.v 
+# -- Compiling module bidirectional_buffer
+# 
+# Top level modules:
+# 	bidirectional_buffer
+# End time: 17:39:36 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer {C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:39:36 on Oct 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer" C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer_tb.v 
+# -- Compiling module bidirectional_buffer_tb
+# 
+# Top level modules:
+# 	bidirectional_buffer_tb
+# End time: 17:39:36 on Oct 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs="+acc"  bidirectional_buffer_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs=""+acc"" bidirectional_buffer_tb 
+# Start time: 17:39:36 on Oct 05,2024
+# Loading work.bidirectional_buffer_tb
+# Loading work.bidirectional_buffer
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# a = 0, b = 0, ctrl = 0
+# a = 0, b = 0, ctrl = 1
+# a = 1, b = 1, ctrl = 0
+# a = 0, b = 0, ctrl = 1
+# a = 0, b = 0, ctrl = 0
+# a = 1, b = 1, ctrl = 1
+# a = 1, b = 1, ctrl = 0
+# a = 1, b = 1, ctrl = 1
+# ** Note: $finish    : C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer_tb.v(15)
+#    Time: 1080 ps  Iteration: 0  Instance: /bidirectional_buffer_tb
+# 1
+# Break in Module bidirectional_buffer_tb at C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer_tb.v line 15
+# End time: 17:52:27 on Oct 05,2024, Elapsed time: 0:12:51
+# Errors: 0, Warnings: 0

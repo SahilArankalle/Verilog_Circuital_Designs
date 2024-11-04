@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# do seq101_detector_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 6/Sequence_101_Detector {C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:11:48 on Nov 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector" C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector.v 
+# -- Compiling module seq101_detector
+# 
+# Top level modules:
+# 	seq101_detector
+# End time: 13:11:48 on Nov 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 6/Sequence_101_Detector {C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:11:48 on Nov 03,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector" C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v 
+# -- Compiling module seq101_detector_tb
+# 
+# Top level modules:
+# 	seq101_detector_tb
+# End time: 13:11:48 on Nov 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs="+acc"  seq101_detector_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs=""+acc"" seq101_detector_tb 
+# Start time: 13:11:49 on Nov 03,2024
+# Loading work.seq101_detector_tb
+# Loading work.seq101_detector
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Reset=0, state=xx, Din=0, Output Dout=x
+# Reset=1, state=00, Din=0, Output Dout=0
+# Reset=0, state=00, Din=0, Output Dout=0
+# Reset=0, state=00, Din=1, Output Dout=0
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=0, state=01, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=0, state=01, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=1, state=00, Din=1, Output Dout=0
+# Reset=0, state=01, Din=1, Output Dout=0
+# Reset=0, state=01, Din=0, Output Dout=0
+# Reset=0, state=10, Din=0, Output Dout=0
+# Reset=0, state=10, Din=1, Output Dout=0
+# Correct output at state 11
+# Reset=0, state=11, Din=1, Output Dout=1
+# Reset=0, state=01, Din=1, Output Dout=0
+# ** Note: $finish    : C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v(68)
+#    Time: 150 ps  Iteration: 0  Instance: /seq101_detector_tb
+# 1
+# Break in Module seq101_detector_tb at C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v line 68
+# End time: 13:12:42 on Nov 03,2024, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0

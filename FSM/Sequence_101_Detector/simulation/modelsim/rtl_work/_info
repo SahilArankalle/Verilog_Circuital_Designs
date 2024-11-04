@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/simulation/modelsim
+vseq101_detector
+Z1 !s110 1730619708
+!i10b 1
+!s100 Da<W5mV108T:BJ1=O59cL0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I390]nB1D4aYQ[>@Z9O8U31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730619536
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector.v
+!i122 0
+L0 1 56
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1730619708.000000
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector|C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector}
+Z8 tCvgOpt 0
+vseq101_detector_tb
+R1
+!i10b 1
+!s100 J4UY8nQNg7a>fPK1D1Zf40
+R2
+In0Hz>0VLZPZEViUET2LRg3
+R3
+R0
+w1730619633
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v
+!i122 1
+L0 1 70
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector|C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v|
+!i113 1
+R6
+R7
+R8

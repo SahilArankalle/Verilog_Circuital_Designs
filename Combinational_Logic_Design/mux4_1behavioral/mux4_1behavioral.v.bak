@@ -1,0 +1,17 @@
+module mux4_1behavioral(data,sel,out);
+input [3:0] data;
+input [1:0] sel;
+output reg [3:0] out;
+
+
+always@(data,sel)
+begin
+case(sel)
+2'b0 : out = data[0];
+2'b1 : out = data[1];
+2'b2 : out = data[2];
+2'b3 : out = data[3];
+default : y_out = 0; 
+endcase
+end
+endmodule 

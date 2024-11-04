@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/seq101_detector_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Lab 6/Sequence_101_Detector/db/seq101_detector.cbx.xml
+design_name = seq101_detector
+instance = comp, \clk~I , clk, seq101_detector, 1
+instance = comp, \seq_in~I , seq_in, seq101_detector, 1
+instance = comp, \rst~I , rst, seq101_detector, 1
+instance = comp, \state.s1 , state.s1, seq101_detector, 1
+instance = comp, \state.s0 , state.s0, seq101_detector, 1
+instance = comp, \state.s2 , state.s2, seq101_detector, 1
+instance = comp, \state.s3 , state.s3, seq101_detector, 1
+instance = comp, \det_o~I , det_o, seq101_detector, 1

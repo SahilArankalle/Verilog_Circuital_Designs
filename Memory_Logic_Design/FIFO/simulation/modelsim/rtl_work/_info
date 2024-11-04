@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/simulation/modelsim
+vfifo
+Z1 !s110 1730267643
+!i10b 1
+!s100 ;8PPCU:1b?cfF?WkVaK563
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBWB3<zjWl`LT6nIggUL7=3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730267540
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo.v
+!i122 0
+L0 1 51
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1730267643.000000
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO|C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO}
+Z8 tCvgOpt 0
+vfifo_tb
+R1
+!i10b 1
+!s100 ogH`BDGL?a27P52B6go9H3
+R2
+IJ5]Z1D>[8meVZNE4D>YRS2
+R3
+R0
+w1730267535
+8C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo_tb.v
+FC:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo_tb.v
+!i122 1
+L0 1 89
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO|C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/FIFO/fifo_tb.v|
+!i113 1
+R6
+R7
+R8

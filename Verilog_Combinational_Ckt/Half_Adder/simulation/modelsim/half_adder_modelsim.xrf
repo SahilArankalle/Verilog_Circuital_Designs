@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Half_Adder/half_adder.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Half_Adder/half_adder_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Half_Adder/db/half_adder.cbx.xml
+design_name = half_adder
+instance = comp, \b~I , b, half_adder, 1
+instance = comp, \a~I , a, half_adder, 1
+instance = comp, \sum~0 , sum~0, half_adder, 1
+instance = comp, \carry~0 , carry~0, half_adder, 1
+instance = comp, \sum~I , sum, half_adder, 1
+instance = comp, \carry~I , carry, half_adder, 1

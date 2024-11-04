@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/simulation/modelsim
+vbinary_encoder
+Z1 !s110 1728111193
+!i10b 1
+!s100 Hf24?Y5g5Xg<=D^bF0Q8T1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhMO8CWUgeQO7RcP27ZhYf3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1728110093
+Z5 8C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt.v
+Z6 FC:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt.v
+!i122 0
+L0 28 10
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1728111193.000000
+Z9 !s107 C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt|C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt
+Z13 tCvgOpt 0
+vpriority_ckt
+R1
+!i10b 1
+!s100 :P1OW?GP;e[TVlCTK7MYH2
+R2
+I=ZlR<<JiJL6^aQ92X:I=g1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 24
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vpriority_ckt_tb
+R1
+!i10b 1
+!s100 ;lC?6Ili7U<ol85ggooaG1
+R2
+Ii?Llhk=JA0?@lgle]IGEY2
+R3
+R0
+w1728111175
+8C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt_tb.v
+FC:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt_tb.v
+!i122 1
+L0 1 20
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt|C:/Users/Sahil/Desktop/Maven/Programs/priority_ckt/priority_ckt_tb.v|
+!i113 1
+R11
+R12
+R13

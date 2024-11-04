@@ -1,0 +1,13 @@
+|mux4_1behavioral
+data[0] => Mux0.IN3
+data[1] => Mux0.IN2
+data[2] => Mux0.IN1
+data[3] => Mux0.IN0
+sel[0] => Mux0.IN5
+sel[1] => Mux0.IN4
+out[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= <GND>
+out[2] <= <GND>
+out[3] <= <GND>
+
+

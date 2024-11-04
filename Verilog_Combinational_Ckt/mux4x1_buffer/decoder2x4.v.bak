@@ -1,0 +1,7 @@
+module decoder2x4(input [1:0] in, output [3:0] out);
+assign out[0] = (~i[0]) & (~i[1]);
+assign out[1] = (~i[0]) & (i[1]);
+assign out[2] = (i[0]) & (~i[1]);
+assign out[3] = (i[0]) & (i[1]);
+
+endmodule

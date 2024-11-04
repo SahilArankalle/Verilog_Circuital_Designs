@@ -1,0 +1,56 @@
+# Reading pref.tcl
+# do mux4_1behavioral_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 3/mux4_1behavioral {C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:30:10 on Oct 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral" C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral.v 
+# -- Compiling module mux4_1behavioral
+# 
+# Top level modules:
+# 	mux4_1behavioral
+# End time: 15:30:10 on Oct 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 3/mux4_1behavioral {C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:30:11 on Oct 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral" C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral_tb.v 
+# -- Compiling module mux4_1behavioral_tb
+# 
+# Top level modules:
+# 	mux4_1behavioral_tb
+# End time: 15:30:11 on Oct 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs="+acc"  mux4_1behavioral_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs=""+acc"" mux4_1behavioral_tb 
+# Start time: 15:30:11 on Oct 09,2024
+# Loading work.mux4_1behavioral_tb
+# Loading work.mux4_1behavioral
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Values of data = 0000, sel = 00, output = 0000
+# Values of data = 0101, sel = 10, output = 0001
+# Values of data = 1111, sel = 11, output = 0001
+# Values of data = 0110, sel = 01, output = 0001
+# ** Note: $finish    : C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral_tb.v(41)
+#    Time: 100 ps  Iteration: 0  Instance: /mux4_1behavioral_tb
+# 1
+# Break in Module mux4_1behavioral_tb at C:/Users/Sahil/Desktop/Maven/Programs/Lab 3/mux4_1behavioral/mux4_1behavioral_tb.v line 41
+# End time: 15:32:54 on Oct 09,2024, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 0

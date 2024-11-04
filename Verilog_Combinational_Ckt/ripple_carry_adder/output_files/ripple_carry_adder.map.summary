@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Sat Oct 05 12:34:26 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : ripple_carry_adder
+Top-level Entity Name : ripple_carry_adder
+Family : MAX V
+Total logic elements : 7
+Total pins : 13
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

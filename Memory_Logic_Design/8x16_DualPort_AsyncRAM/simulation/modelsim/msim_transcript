@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# do ram8x16_asynch_dualport_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 5/8x16_RualPort_AsyncRAM {C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM/ram8x16_asynch_dualport.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:27:18 on Oct 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM" C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM/ram8x16_asynch_dualport.v 
+# -- Compiling module ram8x16_asynch_dualport
+# 
+# Top level modules:
+# 	ram8x16_asynch_dualport
+# End time: 15:27:19 on Oct 27,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab\ 5/8x16_RualPort_AsyncRAM {C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM/dualport_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:27:19 on Oct 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM" C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM/dualport_tb.v 
+# -- Compiling module dualport_tb
+# 
+# Top level modules:
+# 	dualport_tb
+# End time: 15:27:19 on Oct 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs="+acc"  dualport_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs=""+acc"" dualport_tb 
+# Start time: 15:27:19 on Oct 27,2024
+# Loading work.dualport_tb
+# Loading work.ram8x16_asynch_dualport
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM/dualport_tb.v(71)
+#    Time: 620 ps  Iteration: 0  Instance: /dualport_tb
+# 1
+# Break in Module dualport_tb at C:/Users/Sahil/Desktop/Maven/Programs/Lab 5/8x16_RualPort_AsyncRAM/dualport_tb.v line 71
+# End time: 15:27:42 on Oct 27,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0

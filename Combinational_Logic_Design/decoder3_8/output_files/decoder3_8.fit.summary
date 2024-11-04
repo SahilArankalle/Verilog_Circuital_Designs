@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Oct 09 15:45:46 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : decoder3_8
+Top-level Entity Name : decoder3_8
+Family : MAX V
+Device : 5M40ZE64C4
+Timing Models : Final
+Total logic elements : 8 / 40 ( 20 % )
+Total pins : 11 / 54 ( 20 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

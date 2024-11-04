@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/bidirectional_buffer_tb.v
+source_file = 1, C:/Users/Sahil/Desktop/Maven/Programs/Bidirectional_Buffer/db/bidirectional_buffer.cbx.xml
+design_name = bidirectional_buffer
+instance = comp, \a~I , a, bidirectional_buffer, 1
+instance = comp, \b~I , b, bidirectional_buffer, 1
+instance = comp, \ctrl~I , ctrl, bidirectional_buffer, 1

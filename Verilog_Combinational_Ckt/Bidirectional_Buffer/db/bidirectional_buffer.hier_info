@@ -1,0 +1,7 @@
+|bidirectional_buffer
+a <> comb
+b <> comb
+ctrl => comb.OE
+ctrl => comb.OE
+
+
