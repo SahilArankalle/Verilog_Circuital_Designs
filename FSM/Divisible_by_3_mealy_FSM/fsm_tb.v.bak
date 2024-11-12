@@ -1,0 +1,66 @@
+module fsm_tb;
+
+    reg clk;
+    reg reset;
+    reg bit_in;
+    wire output_bit;
+	 
+
+    fsm_divisible_by_3 dut (
+        .clk(clk),
+        .reset(reset),
+        .bit_in(bit_in),
+        .output_bit(output_bit)
+    );
+	 
+
+    task initialization_dut;
+        begin
+            clk = 0;
+            reset = 0;
+            bit_in = 0;
+        end
+    endtask
+	 
+	 
+    always begin
+        #5 clk = ~clk; 
+    end
+
+    task reset_dut;
+        begin
+            reset = 1;
+            #10 reset = 0;
+        end
+    endtask
+
+
+
+    task din_dut; 
+        integer i;
+        begin
+            for (i = 0; i < 4; i = i + 1) begin
+                bit_in = data[i]; 
+                #10;              
+            end
+        end
+    endtask
+	 
+   
+    initial begin
+        
+        initialization_dut;
+		  
+        reset_task;
+		  
+		  din_dut;
+
+        #10 $finish;
+    end
+
+
+    initial begin
+        $monitor("Time = %0d, data_in = %b, output_bit = %b", $time, bit_in, output_bit);
+    end
+
+endmodule

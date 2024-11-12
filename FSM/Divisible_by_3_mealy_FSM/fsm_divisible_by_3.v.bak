@@ -1,0 +1,53 @@
+module fsm_divisible_by_3(
+    input clk,
+    input reset,
+    input bit_in,
+    output reg output_bit
+);
+
+    reg [1:0] state, next_state;
+
+  
+    localparam S0 = 2'b00, // remainder 0
+               S1 = 2'b01, // remainder 1
+               S2 = 2'b10; // remainder 2
+
+    always @(posedge clk or posedge reset) 
+	 begin
+        if (reset)
+            state <= S0; //reset for state 0
+        else
+            state <= next_state; //if not reset then next state
+    end
+
+    always @(state or bit_in) 
+	 begin
+        case(state)
+            S0: begin		//with the remainder 0 
+                if (bit_in)
+                    next_state = S1;	
+                else
+                    next_state = S0;	//as remainder is 0 2(0)+0 = 0
+                output_bit = 1;	//any number which transitions to this state will be divisible by 3
+            end
+            S1: begin
+                if (bit_in)
+                    next_state = S2;
+                else
+                    next_state = S0;	 
+                output_bit = 0;
+            end
+            S2: begin
+                if (bit_in)
+                    next_state = S2;
+                else
+                    next_state = S1;
+                output_bit = 0;
+            end
+            default: begin
+                next_state = S0;
+                output_bit = 1;
+            end
+        endcase
+    end
+endmodule
